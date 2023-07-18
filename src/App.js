@@ -20,7 +20,7 @@ const App = () => {
         }catch(err){
             setResult("Error")
         }
-        setResult(eval(result).toString());
+    setResult(eval(result).toString());
 
   
     }
